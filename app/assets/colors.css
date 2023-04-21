@@ -1,0 +1,195 @@
+@import "gruvbox.css";
+
+
+html {
+    scrollbar-color: var(--bg1) var(--fg1);
+}
+
+::-webkit-scrollbar {
+    background: var(--bg_h);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--bg1);
+}
+
+body {
+    background-color: var(--bg_h);
+    color: var(--fg);
+    border-width: 0 0 0 0px;
+}
+
+#term_area {
+}
+
+.prompt_col {
+    color: var(--fg3);
+}
+
+#term_input {
+    background-color: var(--bg_h);
+    color: var(--fg);
+}
+
+.mantine-Tabs-tabsList {
+    background-color: var(--bg);
+    border-color: var(--bg1);
+    color: var(--fg3);
+}
+
+.mantine-Tabs-tab {
+    background-color: var(--bg_s);
+    border-color: var(--bg2);
+    color: var(--fg3);
+}
+
+.mantine-Tabs-tab[data-active="true"] {
+    background-color: var(--bg_h);
+    border-color: var(--bg2);
+}
+
+.mantine-Tabs-tab[data-active="true"]::before {
+    content: "";
+    background-color: var(--bg_h);
+}
+
+.mantine-Tabs-panel[data-active="true"] {
+    background-color: var(--bg_h);
+    border-width: 0 0 0 0px;
+    border-color: var(--bg);
+}
+
+.mantine-Badge-root {
+    background-color: var(--fg1);
+    color: var(--bg_s);
+}
+
+#left_pane {
+    border-right-color: var(--bg1);
+}
+
+#footer_contents {
+    background-color: var(--bg1);
+}    
+
+pre.code code::before {
+    color: var(--bg3);
+}
+
+a:link {
+  color: var(--blue);
+}
+
+a:visited {
+  color: var(--blue-dim);
+}
+
+a:hover {
+  color: var(--purple);
+}
+
+a:active {
+  color: var(--purple-dim);
+} 
+
+.kw1 {
+  color: var(--blue-dim);
+}
+
+.kw2 {
+  color: var(--orange);
+}
+
+.kw3 {
+  color: var(--aqua);
+}
+
+.decl {
+  color: var(--yellow);
+}
+
+.comment {
+  color: var(--gray);
+}
+
+#hi {
+  color: var(--aqua-dim);
+}
+
+.text_emp_1 {
+  color: var(--blue-dim);
+}
+
+.text_emp_2 {
+  color: var(--fg2);
+}
+
+.paper_container {
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+.badge_container {
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+.paper_title {
+    color: var(--blue);
+}
+
+.divider {
+    border-color: var(--bg2);
+}
+
+.page_comment {
+    color: var(--blue-dim);
+}
+
+.command {
+    color: var(--blue);
+    text-shadow: 0 0 5px var(--blue-dim); 
+   }
+
+.project_title {
+    color: var(--aqua-dim);
+}
+
+.banner_pic {
+    color: var(--fg2);
+}
+
+.banner_text {
+    color: var(--fg4);
+}
+
+.term_out_emp_1 {
+    color: var(--aqua);
+}
+
+.footer_one_one {
+    background-color: var(--fg2);
+    border: 2px solid var(--fg2);
+    color: var(--bg1);
+}
+
+.footer_one_two {
+    background-color: var(--bg2);
+    border: 2px solid var(--fg2);
+    color: var(--fg2);
+}
+
+.footer_two_two {
+    background-color: var(--yellow);
+    border: 2px solid var(--yellow);
+    color: var(--bg3);
+}
+
+::selection {
+    color: var(--bg2);
+    background-color: var(--fg1);
+}
+
+::-moz-selection {
+    color: var(--bg2);
+    background-color: var(--fg1);
+}

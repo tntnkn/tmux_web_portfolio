@@ -1,0 +1,282 @@
+@media only screen and (min-width: 1064px) {
+html, body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+    overflow-x: hidden;
+
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+
+}
+
+#main_screen {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+}
+
+#footer {
+    width: 100%;
+    height: 5vh;
+}
+
+#left_pane, #right_pane {
+    width: 50%;
+}
+
+#left_pane {
+    border-right-width: 3px;
+    border-right-style: solid;
+    overflow:auto;
+}
+
+#right_pane {
+    position:fixed;
+}
+
+#upper_bar {
+    display: flex;
+    flex-direction: row;
+}
+
+#term_input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+#term_area {
+    padding-top: 10px;
+    padding-left: 5px;
+    min-height: 99%;
+    height: 99%;
+}
+
+.mantine-Tabs-tabsList {
+    padding-left: 10px;
+    width: 50%;
+    position:fixed;
+}
+
+
+.mantine-Tabs-panel {
+    padding-left: 10px;
+    padding-top: 35px;
+}
+
+.mantine-Badge-root {
+    margin-right: 3px;
+}
+
+#editor_tabs {
+    width: 50%;
+    position:fixed;
+    left: 50%;
+}
+
+#readme_page {
+    padding-left: 10px;
+}
+
+.paper_container {
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 60px;
+    width: 50%;
+}
+
+.badge_container {
+    padding-bottom: 10px;
+}
+
+.paper_title {
+    padding-top: 5px;
+    padding-left: 7px;
+}
+
+.divider {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.readme_block {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+
+pre.code {
+  white-space: pre-wrap;
+}
+
+pre.code::before {
+  counter-reset: listing;
+}
+
+pre.code code {
+  counter-increment: listing;
+  text-align: left;
+  float: left;
+  clear: left;
+}
+
+pre.code code::before {
+  content: counter(listing) ". ";
+  display: inline-block;
+  float: left;
+  padding-left: auto;
+  margin-left: auto;
+  text-align: right;
+}
+} /* end of media query */
+
+
+@media only screen and (max-width: 1063px) {
+html, body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+    overflow-x: hidden;
+    overflow-wrap: break-word; 
+
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#main_screen {
+    width: 100%;
+    height: 95vh;
+    overflow-y:scroll;
+}
+
+.mantine-Tabs-panel {
+}
+
+#footer {
+    width: 100%;
+    height:50px;
+    height: 5vh;
+    position:fixed;
+}
+
+.mantine-Tabs-tab {
+    width: 100%; 
+    position:fixed;
+}
+
+#left_pane {
+}
+
+#right_pane {
+    display: none;
+}
+
+#term_input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+#term_area {
+    padding-top: 50px;
+}
+} /* end of media query */
+
+
+/* always applicable */
+html {
+    scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.command_output {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.command_desc {
+    padding-left: 40px;
+}
+
+.banner_pic {
+    overflow-wrap: normal; 
+    white-space: pre;
+}
+
+.banner {
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+
+.banner_init {
+    margin-top: -20px;
+}
+#footer_contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_one, .footer_two {
+    display: flex;
+    align-items: center;
+    white-space: pre;
+}
+
+.footer_one_one, .footer_one_two, .footer_two_one, .footer_two_two {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.prompt_inp {
+    white-space: pre;
+}
+
+._dash-loading {
+  margin: auto;
+  color: transparent;
+  width: 0;
+  height: 0;
+  text-align: center;
+}
+
+._dash-loading::after {
+  content: '';
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  color: black;
+  vertical-align: text-bottom;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spinner-border 0.75s linear infinite;
+  animation: spinner-border 0.75s linear infinite;
+  margin-top: 2rem;
+}

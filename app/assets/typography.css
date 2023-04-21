@@ -1,0 +1,43 @@
+body, .font {
+    font-family: cursor, monospace;
+    font-size: 18px;
+}
+
+.text_emp_1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text_emp_2 {
+    font-weight: bold;
+}
+
+.readme_line {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+}
+
+.mantine-Badge-root {
+    font-family: cursor, monospace;
+    font-size: 13px;
+}
+
+.paper_title {
+    font-style: italic;
+}
+
+.page_comment {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.banner_text {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.footer_two {
+    font-size: 15px;
+}
