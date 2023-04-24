@@ -80,7 +80,7 @@ a:link {
 }
 
 a:visited {
-  color: var(--blue-dim);
+  color: var(--gray);
 }
 
 a:hover {
