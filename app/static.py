@@ -3,8 +3,8 @@ from collections    import OrderedDict
 
 maxdmg_name         = 'maxdmg'
 maxdmg_description  = 'Set of tools for generation of text document generators'
-maxdmg_github       = 'github_link'
-maxdmg_demo         = 'demo_link'
+maxdmg_github       = 'https://github.com/tntnkn/maxdmg'
+maxdmg_demo         = 'https://t.me/ne_poedu_bot'
 maxdmg_tech         = ['Flask', 'Dash', 'Redis', 'Postgres', 'sqlalchemy', 'Docker',] 
 
 projects = OrderedDict({
